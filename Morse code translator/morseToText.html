@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Morse Code Translator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="translator.css">
+</head>
+<body>
+    <h1>Morse Code Translator</h1>
+    <a href="textToMorse.html"><img src="images.png"></a>
+    <table>
+        <tr>
+            <th><p>Morse code</p></th>
+            <th><p>Latin alphabet</p></th>
+        </tr>
+        <tr>
+            <td><textarea id="morse" placeholder="Enter morse code here" ></textarea></td>
+            <td><textarea id="latin" placeholder="Translated text will appear here" readonly></textarea></td>
+        </tr>
+    </table>
+    
+    <button onclick="translateToText()">Translate</button>
+    <script src="translator.js"></script>
+</body>
+</html>
